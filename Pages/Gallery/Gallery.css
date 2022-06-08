@@ -1,0 +1,36 @@
+@media(min-width: 500px) {
+    #main {
+    display: grid;
+    place-items: center;
+}
+h1 {
+    font-family: 'Poller One', cursive;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+#Gallery {
+    display: grid;
+    grid-template-columns: 328px 342px 305px;
+    grid-template-rows: 328px 342px 392px;
+}
+.mustache {
+    border-style: solid;
+    border-radius: 1px;
+}
+.mustache:hover {
+    color: gray;
+}
+}
+
+@media(max-width: 499px) {
+    h1 {
+        font-family: 'Poller One', cursive;
+        color: white;
+        background-color: black;
+        padding: 10px;
+}
+.mustache {
+    border-style: solid;
+    border-radius: 1px;
+}

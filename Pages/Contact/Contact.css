@@ -1,0 +1,82 @@
+@media (min-width: 500px) {
+    #main {
+    display: grid;
+    place-items: center;
+}
+
+h1{
+    font-family: 'Poller One', cursive;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+
+form {
+    color: #252525;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 0 0 37px;
+    padding: 20px 10px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 596px;
+}
+input {
+    text-align: center;
+    width: 500px;
+    height: 44px;
+    margin-bottom: 36px;
+    border-style: solid;
+}
+
+#message {
+    padding-bottom: 184px;
+}
+#send {
+    background-color: black;
+    color: white;
+    font-family: Arial black, Helvetica, sans-serif;
+    padding: 20px;
+}
+}
+
+@media(max-width: 499px) {
+    
+    h1{
+        font-family: 'Poller One', cursive;
+        color: white;
+        background-color: black;
+        padding: 10px;
+    }
+    
+    form {
+        color: #252525;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 15px;
+        font-weight: normal;
+        margin: 0 0 0px;
+        padding: 0px -1px;
+        text-align: center;
+        text-transform: uppercase;
+        width: 6px;
+    }
+    input {
+        text-align: center;
+        width: 347px;
+        height: 44px;
+        margin-bottom: 36px;
+        border-style: solid;
+    }
+    
+    #message {
+        padding-bottom: 184px;
+    }
+    #send {
+        background-color: black;
+        color: white;
+        font-family: Arial black, Helvetica, sans-serif;
+        padding: 20px;
+    }
+    }
+}
